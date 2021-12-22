@@ -1,1 +1,174 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T09:52:21.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" version="16.0.0" etag="_E6HgsvecJ4gCqmSs-hX" type="github"><diagram id="uFhdSipGIqnWjOmBALFv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-22T10:01:38.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="nI7ahkQjsEkQbkhzEB72" version="16.0.0" type="github">
+  <diagram id="uFhdSipGIqnWjOmBALFv" name="Page-1">
+    <mxGraphModel dx="2877" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;width: 676px ; display: inline-flex&quot; class=&quot;ct-drawio ct-image-container ct-image-container-success&quot;&gt;&lt;div class=&quot;ct-web-dangers-shadow-wrapper&quot;&gt;&lt;/div&gt;&lt;span class=&quot;placeholder-for-copy&quot;&gt; &lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-2" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;width: 676px ; display: inline-flex&quot; class=&quot;ct-drawio ct-image-container ct-image-container-success&quot;&gt;&lt;div class=&quot;ct-web-dangers-shadow-wrapper&quot;&gt;&lt;/div&gt;&lt;span class=&quot;placeholder-for-copy&quot;&gt; &lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-5" target="f2VHddHUR_tZoeg-HYDN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-5" value="获取待重试任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-8" target="f2VHddHUR_tZoeg-HYDN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-8" target="f2VHddHUR_tZoeg-HYDN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-8" value="超过重试&lt;br&gt;次数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-10" target="f2VHddHUR_tZoeg-HYDN-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-10" value="更新子任务和任务组状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="425" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-12" target="f2VHddHUR_tZoeg-HYDN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-12" value="获取待执行Bean" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="535" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="310" as="sourcePoint" />
+            <mxPoint x="340" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-15" target="f2VHddHUR_tZoeg-HYDN-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-15" value="获取执行锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-17" target="f2VHddHUR_tZoeg-HYDN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-17" value="获取锁成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-20" target="f2VHddHUR_tZoeg-HYDN-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-20" value="执行任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="640" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-23" target="f2VHddHUR_tZoeg-HYDN-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="891" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-23" value="执行成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="f2VHddHUR_tZoeg-HYDN-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695.9999999999995" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-29" value="释放锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="425" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-32" target="f2VHddHUR_tZoeg-HYDN-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-32" value="更新任务组计数器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="765" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-34" target="f2VHddHUR_tZoeg-HYDN-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-34" value="更新任务组状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="765" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-37" target="f2VHddHUR_tZoeg-HYDN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="f2VHddHUR_tZoeg-HYDN-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="680" />
+              <mxPoint x="995" y="680" />
+            </Array>
+            <mxPoint x="655" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-37" value="全部完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-38" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="760" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1112.0000000000005" y="790.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-40" value="释放锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="765" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-42" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-43" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-44" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-45" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="665" y="720" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-47" target="f2VHddHUR_tZoeg-HYDN-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-47" value="更新子任务状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="764.5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="f2VHddHUR_tZoeg-HYDN-52" target="f2VHddHUR_tZoeg-HYDN-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-52" value="更新任务重试次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="891" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-53" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="840" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-55" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="425" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-56" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="500" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-60" value="&lt;span&gt;重试线程唤起&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-151" y="165" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-62" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;结束&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-63" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;结束&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="695" y="420" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2VHddHUR_tZoeg-HYDN-64" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;结束&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="759.5" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
