@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T03:12:54.674Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" version="17.1.3" etag="mIsbbORLG403pKvVnFzX" type="github"><diagram id="2mAhVaVt3ydmJ5ngRtMf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-18T03:25:12.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="AiDSpq2nwD4NHjkKra6w" version="17.1.3" type="github">
+  <diagram id="2mAhVaVt3ydmJ5ngRtMf" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JuNC3uJ7COpC0ct_0xvZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JuNC3uJ7COpC0ct_0xvZ-4" target="JuNC3uJ7COpC0ct_0xvZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-4" value="管理员配置任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="35" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JuNC3uJ7COpC0ct_0xvZ-5" target="JuNC3uJ7COpC0ct_0xvZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-5" value="任务落库，用户与任务建立关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JuNC3uJ7COpC0ct_0xvZ-7" target="JuNC3uJ7COpC0ct_0xvZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-7" value="开启定时任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-16" value="未完成" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JuNC3uJ7COpC0ct_0xvZ-13" target="JuNC3uJ7COpC0ct_0xvZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-18" value="完成" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JuNC3uJ7COpC0ct_0xvZ-13" target="JuNC3uJ7COpC0ct_0xvZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-13" value="用户任务是否完成" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-15" value="发送消息进行提醒" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JuNC3uJ7COpC0ct_0xvZ-17" value="修改用户任务状态为完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
