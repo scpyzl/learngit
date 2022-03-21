@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T01:55:57.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" version="17.1.3" etag="ycGXdzwFh85lwP4gfysQ" type="github"><diagram id="rbnLsztm7d33mqUd_agX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-21T02:21:07.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="aO88hPXLT0Vu2sgocwCn" version="17.1.3" type="github">
+  <diagram id="rbnLsztm7d33mqUd_agX" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nidSuWoNtnMBWbQ1uOQ2-1" target="nidSuWoNtnMBWbQ1uOQ2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-1" value="admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nidSuWoNtnMBWbQ1uOQ2-2" target="nidSuWoNtnMBWbQ1uOQ2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-2" value="sso登录" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nidSuWoNtnMBWbQ1uOQ2-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="350" />
+              <mxPoint x="350" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-10" value="任务配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nidSuWoNtnMBWbQ1uOQ2-9">
+          <mxGeometry x="0.293" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-4" value="管理后台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.283;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nidSuWoNtnMBWbQ1uOQ2-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-6" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=cronjob" vertex="1" parent="1">
+          <mxGeometry x="450" y="262" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nidSuWoNtnMBWbQ1uOQ2-12" target="nidSuWoNtnMBWbQ1uOQ2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-12" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nidSuWoNtnMBWbQ1uOQ2-14" target="nidSuWoNtnMBWbQ1uOQ2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-14" value="sso登录" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-19" value="课程预约" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nidSuWoNtnMBWbQ1uOQ2-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-15" value="ixuexi系统" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-20" value="短信/email发送系统" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-22" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Database_General.svg;" vertex="1" parent="1">
+          <mxGeometry x="456" y="325" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-23" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Database_General.svg;" vertex="1" parent="1">
+          <mxGeometry x="360" y="546.97" width="35" height="46.05" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=0.925;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nidSuWoNtnMBWbQ1uOQ2-27" target="nidSuWoNtnMBWbQ1uOQ2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-30" value="calback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nidSuWoNtnMBWbQ1uOQ2-29">
+          <mxGeometry x="-0.0365" y="19" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nidSuWoNtnMBWbQ1uOQ2-27" value="redis" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="425" y="545.02" width="50" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
