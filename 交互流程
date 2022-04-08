@@ -1,1 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T01:47:05.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" version="17.4.0" etag="VQ6rgARZ0n5uvlbiyi3I" type="github"><diagram id="j_04nVISjm44a3IBfT-m">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-08T02:18:36.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="YugLYz_W11JfPMwJAPIh" version="17.4.0" type="github">
+  <diagram id="j_04nVISjm44a3IBfT-m" name="Page-1">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-5" value="user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Lpa_c9Mfw0mJjFvYbW3f-5">
+          <mxGeometry x="45" y="60" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-9" value="1.点击安装" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="Lpa_c9Mfw0mJjFvYbW3f-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="70" as="sourcePoint" />
+            <mxPoint x="224.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Lpa_c9Mfw0mJjFvYbW3f-5">
+          <mxGeometry x="45" y="200" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-6" value="chatbot" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Lpa_c9Mfw0mJjFvYbW3f-6">
+          <mxGeometry x="44" y="60" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-11" value="2.请求认证" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="Lpa_c9Mfw0mJjFvYbW3f-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="100" as="sourcePoint" />
+            <mxPoint x="-126.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-16" value="4.install_event产生" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="Lpa_c9Mfw0mJjFvYbW3f-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="170" />
+            </Array>
+            <mxPoint x="59" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-17" value="5.返回sso认证登陆界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="Lpa_c9Mfw0mJjFvYbW3f-6" target="Lpa_c9Mfw0mJjFvYbW3f-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="44" y="220" as="sourcePoint" />
+            <mxPoint x="-122.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Lpa_c9Mfw0mJjFvYbW3f-6">
+          <mxGeometry x="44" y="380" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-7" value="sso认证" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Lpa_c9Mfw0mJjFvYbW3f-7">
+          <mxGeometry x="45" y="200" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Lpa_c9Mfw0mJjFvYbW3f-7">
+          <mxGeometry x="45" y="380" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-12" value="3.接受认证" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="176" y="220" as="sourcePoint" />
+            <mxPoint x="345.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-20" value="6.填写邮箱密码进行授权认证" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="174" y="330" as="sourcePoint" />
+            <mxPoint x="344" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-21" value="7.进行登录认证" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="356" y="350" as="sourcePoint" />
+            <mxPoint x="545.5" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-22" value="8.返回accessToken和&lt;br&gt;refresh_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.6;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0533" relative="1" as="geometry">
+            <mxPoint x="542" y="390" as="sourcePoint" />
+            <mxPoint x="353" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-24" value="9.携带access_token获取消息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="357" y="424" as="sourcePoint" />
+            <mxPoint x="546.5" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-28" value="10.携带access_token获取消息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="357" y="495" as="sourcePoint" />
+            <mxPoint x="546.5" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-30" value="11.access_token过期" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.6;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0533" relative="1" as="geometry">
+            <mxPoint x="543" y="529" as="sourcePoint" />
+            <mxPoint x="354" y="529" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-31" value="12.利用refresh进行重新申请" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="357" y="567" as="sourcePoint" />
+            <mxPoint x="546.5" y="567" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-32" value="13.返回access_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.6;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0533" relative="1" as="geometry">
+            <mxPoint x="544" y="598" as="sourcePoint" />
+            <mxPoint x="355" y="598" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpa_c9Mfw0mJjFvYbW3f-33" value="14.携带access_token&lt;br&gt;进行请求" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="357" y="631" as="sourcePoint" />
+            <mxPoint x="546.5" y="631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
