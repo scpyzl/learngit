@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T15:03:09.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="dzfuPrA4dhvUA6WF97Ag" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-11T15:04:02.646Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="eAzyVXzcKxKHQec5WOrZ" version="18.1.3" type="github">
   <diagram id="8OQWpC5KuWGiOUxt9SKh" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,9 @@
         </mxCell>
         <mxCell id="gwxmygeHfG9a1aKErqHd-22" value="热门店校验" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="428" y="390" width="130" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gwxmygeHfG9a1aKErqHd-24" value="每日凌晨进行更新" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
