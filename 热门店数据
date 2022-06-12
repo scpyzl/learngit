@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T06:28:00.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="cNWDHU-_32_7bDMa0VvN" version="20.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-12T06:42:18.682Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="rD3W0cWFdJSV4kS62Fso" version="20.0.0" type="github" pages="2">
   <diagram id="8OQWpC5KuWGiOUxt9SKh" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,9 +71,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nHID1CvWh9YO4V7xibQ_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cSTMV89CRgNTSlmEumHX-1" target="nHID1CvWh9YO4V7xibQ_-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="cSTMV89CRgNTSlmEumHX-1" value="B端商家" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="329" width="90" height="50" as="geometry" />
         </mxCell>
@@ -100,6 +97,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="nHID1CvWh9YO4V7xibQ_-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nHID1CvWh9YO4V7xibQ_-1" target="nHID1CvWh9YO4V7xibQ_-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="400" />
+              <mxPoint x="305" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nHID1CvWh9YO4V7xibQ_-1" value="HotBiz&lt;br&gt;DB" style="shape=datastore;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="316" width="60" height="64" as="geometry" />
         </mxCell>
@@ -115,11 +120,8 @@
         <mxCell id="nHID1CvWh9YO4V7xibQ_-12" value="MQ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;" vertex="1" parent="1">
           <mxGeometry x="260" y="334" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nHID1CvWh9YO4V7xibQ_-15" value="2.发送删除缓存消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="358" width="70" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="nHID1CvWh9YO4V7xibQ_-16" value="3.监听消息删除缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="370" width="46" height="30" as="geometry" />
+          <mxGeometry x="356" y="316" width="46" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nHID1CvWh9YO4V7xibQ_-19" value="" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="175" width="10" height="60" as="geometry" />
@@ -171,6 +173,9 @@
               <mxPoint x="426" y="214" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nHID1CvWh9YO4V7xibQ_-55" value="2.binlog数据变更，发送消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="356" y="380" width="114" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
