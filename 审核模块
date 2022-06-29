@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T11:38:10.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" version="20.0.3" etag="GGrYtcNLFHHVZQDZ8Q71" type="github"><diagram id="bcVp2RFiQ-R5pm9G92pK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-29T11:44:18.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="JtuUM-KX6Zynrylslrdu" version="20.0.3" type="github">
+  <diagram id="bcVp2RFiQ-R5pm9G92pK" name="Page-1">
+    <mxGraphModel dx="984" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B9YCkhGIRhEZALhfC8sv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="491" as="sourcePoint" />
+            <mxPoint x="270" y="491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9YCkhGIRhEZALhfC8sv-1" value="审核模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9YCkhGIRhEZALhfC8sv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B9YCkhGIRhEZALhfC8sv-2" target="B9YCkhGIRhEZALhfC8sv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B9YCkhGIRhEZALhfC8sv-2" value="&amp;nbsp; &amp;nbsp; 消息队列" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="270" y="480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9YCkhGIRhEZALhfC8sv-4" value="统一审核接&lt;br&gt;入平台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="468" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="B9YCkhGIRhEZALhfC8sv-7" value="素材" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B9YCkhGIRhEZALhfC8sv-8" value="监听" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B9YCkhGIRhEZALhfC8sv-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.717;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="B9YCkhGIRhEZALhfC8sv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="502" as="sourcePoint" />
+            <mxPoint x="210" y="501.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9YCkhGIRhEZALhfC8sv-10" value="审核结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="506" width="50" height="17" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
