@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T07:42:04.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="7KVV_wBi1s9iL1Ma5OFb" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-29T07:44:42.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="Ffv1BgKaVUg7X9G4exq2" version="17.4.6" type="github" pages="2">
   <diagram id="j_04nVISjm44a3IBfT-m" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -121,6 +121,26 @@
             <mxPoint x="357" y="631" as="sourcePoint" />
             <mxPoint x="546.5" y="631" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nwobjiC37rd5exUyFplb" name="Page-2">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ipQLcj-vG84_mzowuSbl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ipQLcj-vG84_mzowuSbl-1" target="ipQLcj-vG84_mzowuSbl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ipQLcj-vG84_mzowuSbl-1" value="iZoom system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipQLcj-vG84_mzowuSbl-3" value="iTongzhi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipQLcj-vG84_mzowuSbl-5" value="submit message with emails" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
