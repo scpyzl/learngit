@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T02:41:41.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="efHatMYR_FhaNcRxpedY" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-07T02:48:13.855Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="uHJ26N6s9-ZXySu_OKnD" version="20.0.4" type="github" pages="6">
   <diagram id="uCL_0Ep-wGaSpgl8rpd1" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,7 +260,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GhvP8gVY6gbmD3P6UyvQ" name="Page-6">
-    <mxGraphModel dx="652" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,8 +315,8 @@
             <mxPoint x="130" y="23.7" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-gxkkubTshgkeS_KSOC-26" value="1.修改数据库对应状态&lt;br&gt;2.调用服务通知商家&lt;br&gt;3.头图类型判断模版生效" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="W-gxkkubTshgkeS_KSOC-40">
-          <mxGeometry x="-0.8499999999999996" y="28.5" width="134.85" height="36.77" as="geometry" />
+        <mxCell id="W-gxkkubTshgkeS_KSOC-26" value="1.修改数据库对应状态&lt;br&gt;2.调用服务通知商家" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="W-gxkkubTshgkeS_KSOC-40">
+          <mxGeometry x="4.15" y="28.5" width="134.85" height="36.77" as="geometry" />
         </mxCell>
         <mxCell id="W-gxkkubTshgkeS_KSOC-41" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="210" y="330" width="130" height="73.7" as="geometry" />
