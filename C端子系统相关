@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T12:20:15.736Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="Q3tu1SQ2QhJ3T-4FV7ts" version="20.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-15T12:22:53.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="W-vn7LncRxXW_O5nyX4q" version="20.1.1" type="github" pages="6">
   <diagram id="mamWQrpeJmCIjSrEOGZ7" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -466,15 +466,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="63uvA2ozQf5q-Y3kEq5P-2" value="前端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="354" y="150" width="80" height="440" as="geometry" />
+          <mxGeometry x="354" y="150" width="80" height="460" as="geometry" />
         </mxCell>
         <mxCell id="6D1_0oTslhUk7okR4XpP-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="63uvA2ozQf5q-Y3kEq5P-2">
           <mxGeometry x="35" y="77" width="10" height="363" as="geometry" />
-        </mxCell>
-        <mxCell id="6D1_0oTslhUk7okR4XpP-2" value="信息请求" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="6D1_0oTslhUk7okR4XpP-1" parent="63uvA2ozQf5q-Y3kEq5P-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-24" y="77" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="6D1_0oTslhUk7okR4XpP-36" value="根据shopId&lt;br&gt;获取本地&lt;br&gt;缓存数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="63uvA2ozQf5q-Y3kEq5P-2">
           <mxGeometry relative="1" as="geometry">
@@ -487,7 +482,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="63uvA2ozQf5q-Y3kEq5P-5" value="头图存储系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="150" width="80" height="440" as="geometry" />
+          <mxGeometry x="490" y="150" width="80" height="460" as="geometry" />
         </mxCell>
         <mxCell id="6D1_0oTslhUk7okR4XpP-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="63uvA2ozQf5q-Y3kEq5P-5">
           <mxGeometry x="35" y="90" width="10" height="320" as="geometry" />
@@ -503,7 +498,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="63uvA2ozQf5q-Y3kEq5P-6" value="缓存服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="150" width="80" height="440" as="geometry" />
+          <mxGeometry x="640" y="150" width="80" height="460" as="geometry" />
         </mxCell>
         <mxCell id="6D1_0oTslhUk7okR4XpP-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="63uvA2ozQf5q-Y3kEq5P-6">
           <mxGeometry x="35" y="138" width="10" height="72" as="geometry" />
@@ -567,8 +562,23 @@
         <mxCell id="6D1_0oTslhUk7okR4XpP-37" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="571" as="sourcePoint" />
-            <mxPoint x="320" y="571" as="targetPoint" />
+            <mxPoint x="253.5" y="571" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6D1_0oTslhUk7okR4XpP-38" value="user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="80" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6D1_0oTslhUk7okR4XpP-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6D1_0oTslhUk7okR4XpP-38">
+          <mxGeometry x="35" y="77" width="10" height="363" as="geometry" />
+        </mxCell>
+        <mxCell id="6D1_0oTslhUk7okR4XpP-42" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;entryX=-0.1;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="6D1_0oTslhUk7okR4XpP-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="255" y="239.5" as="sourcePoint" />
+            <mxPoint x="380" y="239.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6D1_0oTslhUk7okR4XpP-43" value="发起请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="214" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
