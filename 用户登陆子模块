@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T09:02:04.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="khzjTB6EwteltuNg2TYn" version="20.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-13T09:17:08.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="-NHlapru0mUmcrxYB7nk" version="20.8.5" type="github" pages="2">
   <diagram id="6K2yUtgxJJR-aXYTmaxg" name="Page-1">
     <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,6 +176,63 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="GIDCFzTNO7Nhe1iCBkw--1" target="GIDCFzTNO7Nhe1iCBkw--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="GIDCFzTNO7Nhe1iCBkw--3" target="GIDCFzTNO7Nhe1iCBkw--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--3" value="点击注册按钮" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="GIDCFzTNO7Nhe1iCBkw--4" target="GIDCFzTNO7Nhe1iCBkw--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--4" value="填写用户基本信息并核验" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="GIDCFzTNO7Nhe1iCBkw--7" target="GIDCFzTNO7Nhe1iCBkw--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--16" value="未注册过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GIDCFzTNO7Nhe1iCBkw--11">
+          <mxGeometry x="-0.1006" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="GIDCFzTNO7Nhe1iCBkw--7" target="GIDCFzTNO7Nhe1iCBkw--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--19" value="重复注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GIDCFzTNO7Nhe1iCBkw--17">
+          <mxGeometry x="-0.1728" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--7" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="283.75" y="270" width="82.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="GIDCFzTNO7Nhe1iCBkw--10" target="GIDCFzTNO7Nhe1iCBkw--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--10" value="入库用户信息" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--12" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="GIDCFzTNO7Nhe1iCBkw--15" target="GIDCFzTNO7Nhe1iCBkw--12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="420" />
+              <mxPoint x="325" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIDCFzTNO7Nhe1iCBkw--15" value="提示重复注册并跳转至登陆界面" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="275" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
