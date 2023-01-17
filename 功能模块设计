@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T11:04:31.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="9pOh-oO1a3klcb35dPSF" version="20.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-17T07:02:22.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="SRmHTw2maCDOgGIDPTQW" version="20.8.5" type="github" pages="2">
   <diagram id="07GLNPvkdO93LsYKkG2y" name="Page-1">
     <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,13 +74,10 @@
         <mxCell id="D_gHsiwadYHWKm9gsjcR-4" value="运&lt;br&gt;营&lt;br&gt;审&lt;br&gt;核&lt;br&gt;管&lt;br&gt;理&lt;br&gt;模&lt;br&gt;块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="555" y="370" width="35" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="D_gHsiwadYHWKm9gsjcR-5" value="注&lt;br&gt;册&lt;br&gt;模&lt;br&gt;块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D_gHsiwadYHWKm9gsjcR-5" value="登&lt;br&gt;陆&lt;br&gt;模&lt;br&gt;块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="370" width="35" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="D_gHsiwadYHWKm9gsjcR-6" value="登&lt;br&gt;陆&lt;br&gt;模&lt;br&gt;块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="97.5" y="370" width="35" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="D_gHsiwadYHWKm9gsjcR-7" value="重&lt;br&gt;置&lt;br&gt;密&lt;br&gt;码&lt;br&gt;模&lt;br&gt;块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D_gHsiwadYHWKm9gsjcR-7" value="权&lt;br&gt;限&lt;br&gt;管&lt;br&gt;理&lt;br&gt;模&lt;br&gt;块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="370" width="35" height="130" as="geometry" />
         </mxCell>
         <mxCell id="D_gHsiwadYHWKm9gsjcR-8" value="大&lt;br&gt;客&lt;br&gt;任&lt;br&gt;务&lt;br&gt;同&lt;br&gt;步&lt;br&gt;模&lt;br&gt;块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -126,12 +123,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="200" as="sourcePoint" />
             <mxPoint x="680" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D_gHsiwadYHWKm9gsjcR-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="D_gHsiwadYHWKm9gsjcR-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="114.5" y="345" as="sourcePoint" />
-            <mxPoint x="115" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
