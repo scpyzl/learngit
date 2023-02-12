@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T05:34:56.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="qfPJ-FiAQKelC-0H7J6n" version="20.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-12T09:34:38.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="n3NK8_7oiqoXY9veyK1F" version="20.8.5" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2058" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="动态配置服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Lion动态配置服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="80" width="100" height="440" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
@@ -115,8 +115,8 @@
             <mxPoint x="170" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1BJ49OqwZ5szCRAD789i-1" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px&quot;&gt;热点分级、业务方向、fpp、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px&quot;&gt;更新周期参数上传&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="173.75" width="100" height="22.5" as="geometry" />
+        <mxCell id="1BJ49OqwZ5szCRAD789i-1" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px&quot;&gt;业务方向、Bloom Filter相关参数上传&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="145.75" width="100" height="56.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
