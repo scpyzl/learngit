@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T08:58:50.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="pOOUxyMFwNYtmNJiYGTa" version="20.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-22T08:58:56.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="Re_woeNkLvXPHo0GZjZ9" version="20.8.5" type="github" pages="2">
   <diagram id="07GLNPvkdO93LsYKkG2y" name="Page-1">
     <mxGraphModel dx="1208" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,9 +133,6 @@
         </mxCell>
         <mxCell id="rph5DcDAaBMWZ_LjCif3-11" value="商&lt;br&gt;家&lt;br&gt;相&lt;br&gt;册&lt;br&gt;视&lt;br&gt;频&lt;br&gt;管&lt;br&gt;理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="370" width="35" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="rph5DcDAaBMWZ_LjCif3-16" value="Text" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="550" y="250" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rph5DcDAaBMWZ_LjCif3-17" value="素&lt;br&gt;材&lt;br&gt;同&lt;br&gt;步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="370" width="35" height="130" as="geometry" />
