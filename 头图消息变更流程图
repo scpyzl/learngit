@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T08:05:19.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="QX8XhjMjoh2_68GRYz9a" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-16T08:05:45.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="qc3S93STLQ-AU0rk-xFQ" version="21.0.6" type="github" pages="2">
   <diagram id="zhtC08ebefjjQ59thDF4" name="Page-1">
     <mxGraphModel dx="1208" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -589,7 +589,7 @@
         <mxCell id="BZjf8BKQcsSEypP6ATki-1" value="校验门店权益" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="286.99" y="180" width="73" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="7WszbGuCjMYy1DL5-vuu-1" value="分模块处理" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="7WszbGuCjMYy1DL5-vuu-1" value="分模块&lt;br&gt;多线程处理" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="286.99" y="245" width="73" height="39" as="geometry" />
         </mxCell>
         <mxCell id="VFTSrPE1KF-sSHx6WKaA-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rotation=90;fillColor=#000000;strokeWidth=2;" vertex="1" parent="1">
