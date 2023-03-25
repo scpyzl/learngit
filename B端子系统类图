@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T08:21:53.113Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="byus3G4F5LMj3tm3KxNG" version="21.1.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-25T09:10:50.896Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="PQd6rCnJ5QDd0tWaV3N0" version="21.1.0" type="github" pages="13">
   <diagram id="uCL_0Ep-wGaSpgl8rpd1" name="Page-1">
     <mxGraphModel dx="1208" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,6 +214,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="riz6jtWaQR70gUTEgePu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="CWJAt-3zNYyh9RfDoTcN-4" target="CWJAt-3zNYyh9RfDoTcN-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="445" />
+              <mxPoint x="920" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CWJAt-3zNYyh9RfDoTcN-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BShopContextSeviceImpl&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- stragegy: MaterialStrategy&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteMatreialContext(&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;BShopAlbumSubmitContextReq req)&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+&amp;nbsp;reorderMaterialContext(&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;BShopAlbumSubmitContextReq req): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+&amp;nbsp;setHeadPicContext(&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;BShopAlbumSubmitContextReq req): String&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ updateMaterialContext(&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;BShopAlbumUpdateContextReq req): String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="350" width="250" height="190" as="geometry" />
         </mxCell>
@@ -256,17 +264,6 @@
               <mxPoint x="236" y="250" />
               <mxPoint x="360" y="250" />
               <mxPoint x="360" y="291" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CWJAt-3zNYyh9RfDoTcN-17" value="" style="endArrow=none;startArrow=diamondThin;endFill=0;startFill=0;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;startSize=8;endSize=8;rounded=0;dashed=1;fontSize=16;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="CWJAt-3zNYyh9RfDoTcN-4" target="CWJAt-3zNYyh9RfDoTcN-8" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="700" y="320" as="sourcePoint" />
-            <mxPoint x="860" y="320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="920" y="445" />
-              <mxPoint x="920" y="150" />
-              <mxPoint x="770" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
