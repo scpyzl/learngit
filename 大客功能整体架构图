@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-26T04:31:12.431Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="1mK9F-gNL6R8yG4gYPuz" version="21.1.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-26T04:38:24.426Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="eeJLzcv_rEuGjlvCTg5B" version="21.1.0" type="github" pages="9">
   <diagram id="VgGwMK-eDqbTJr0zKvwx" name="Page-1">
     <mxGraphModel dx="1208" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -592,19 +592,14 @@
         <mxCell id="pX3v5jBGwbAfYI8TumnP-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;serilizable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="169" y="210" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="pX3v5jBGwbAfYI8TumnP-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TaskResultReq&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ bizId: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ bizName: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mainTaskId: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ subTaskId: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ needRetry: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sucess: Boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="169" y="359" width="170" height="151" as="geometry" />
+        <mxCell id="pX3v5jBGwbAfYI8TumnP-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TaskResultReq&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;nbsp;bizId: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;nbsp;bizName: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;nbsp;mainTaskId: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;nbsp;subTaskId: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;nbsp;needRetry: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;nbsp;success: Boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBizId(): Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setBizId(Integer bizId): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="169" y="359" width="170" height="191" as="geometry" />
         </mxCell>
-        <mxCell id="pX3v5jBGwbAfYI8TumnP-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TaskHandlerService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ taskCall(TaskSubmitReq req): void&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+        <mxCell id="pX3v5jBGwbAfYI8TumnP-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TaskHandlerService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ taskCall(TaskResultReq req): void&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="210" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pX3v5jBGwbAfYI8TumnP-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pX3v5jBGwbAfYI8TumnP-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pX3v5jBGwbAfYI8TumnP-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TaskHandlerServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ taskCall(TaskSubmitReq req): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="409" width="220" height="101" as="geometry" />
+        <mxCell id="pX3v5jBGwbAfYI8TumnP-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TaskHandlerServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ taskCall(&lt;span style=&quot;border-color: var(--border-color); font-size: 12.000001px;&quot;&gt;TaskResultReq&lt;/span&gt;&amp;nbsp;req): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="449" width="220" height="101" as="geometry" />
         </mxCell>
         <mxCell id="pX3v5jBGwbAfYI8TumnP-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pX3v5jBGwbAfYI8TumnP-2" target="pX3v5jBGwbAfYI8TumnP-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -616,6 +611,16 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="265" y="369" as="sourcePoint" />
             <mxPoint x="265" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WRiSpNGfHs_LbUUhh8-i-1" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="pX3v5jBGwbAfYI8TumnP-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="270" as="sourcePoint" />
+            <mxPoint x="340" y="488" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="270" />
+              <mxPoint x="370" y="455" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
@@ -641,7 +646,7 @@
         <mxCell id="CjL2BvTOx61RNwlANUvP-38" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CjL2BvTOx61RNwlANUvP-33" target="CjL2BvTOx61RNwlANUvP-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-1" value="执行&lt;br&gt;成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CjL2BvTOx61RNwlANUvP-38">
+        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-1" value="执行&lt;br&gt;成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CjL2BvTOx61RNwlANUvP-38" vertex="1" connectable="0">
           <mxGeometry x="-0.238" y="1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -690,15 +695,15 @@
         <mxCell id="CjL2BvTOx61RNwlANUvP-44" value="相应子任务增加重试次数" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="554.87" y="340" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjL2BvTOx61RNwlANUvP-52" target="CjL2BvTOx61RNwlANUvP-68">
+        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CjL2BvTOx61RNwlANUvP-52" target="CjL2BvTOx61RNwlANUvP-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-4" value="重试次数&amp;lt;=3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WRO6AiCtT7ui-Gx-n2rN-3">
+        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-4" value="重试次数&amp;lt;=3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WRO6AiCtT7ui-Gx-n2rN-3" vertex="1" connectable="0">
           <mxGeometry x="-0.5137" y="-1" relative="1" as="geometry">
             <mxPoint y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-5" value="重试次数&amp;gt;3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CjL2BvTOx61RNwlANUvP-52" target="WRO6AiCtT7ui-Gx-n2rN-2">
+        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-5" value="重试次数&amp;gt;3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CjL2BvTOx61RNwlANUvP-52" target="WRO6AiCtT7ui-Gx-n2rN-2" edge="1">
           <mxGeometry x="0.0028" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -746,10 +751,10 @@
         <mxCell id="CjL2BvTOx61RNwlANUvP-82" value="修改主任务状态为success" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="305.5" width="82.75" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WRO6AiCtT7ui-Gx-n2rN-2" target="CjL2BvTOx61RNwlANUvP-76">
+        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WRO6AiCtT7ui-Gx-n2rN-2" target="CjL2BvTOx61RNwlANUvP-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-2" value="不再执行并进行告警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WRO6AiCtT7ui-Gx-n2rN-2" value="不再执行并进行告警" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="480" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
