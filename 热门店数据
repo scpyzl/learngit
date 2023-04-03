@@ -1,59 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T07:18:46.508Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="w_aH-Y4AZJgod89-swBP" version="21.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-04-03T17:44:42.829Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="2YwgaEEfOGjidljNgibV" version="21.1.2" type="github" pages="7">
   <diagram id="8OQWpC5KuWGiOUxt9SKh" name="Page-1">
-    <mxGraphModel dx="1208" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1007" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gwxmygeHfG9a1aKErqHd-3" value="更新" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="413.5" y="190" width="70" height="30" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-3" value="更新" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="399.5" y="190" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-4" value="新增" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="414" y="230" width="70" height="30" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-4" value="新增" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="399.5" y="229" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+        <mxCell id="gwxmygeHfG9a1aKErqHd-5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="492.5" y="205" as="sourcePoint" />
+            <mxPoint x="480" y="205" as="sourcePoint" />
             <mxPoint x="549" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-7" value="Job定期更新HotBiz DB" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="160" width="145" height="30" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Job定期更新HotBiz DB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="160" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-10" value="HotBiz&lt;br&gt;DB" style="shape=datastore;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="336" y="193" width="60" height="64" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-10" value="HotBiz&lt;br style=&quot;font-size: 16px;&quot;&gt;DB" style="shape=datastore;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="300" y="190" width="76" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-11" value="本地缓存&lt;br&gt;Bloom Filter" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="563" y="377" width="58" height="80" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-11" value="Bloom Filter" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="562" y="400" width="58" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-14" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+        <mxCell id="gwxmygeHfG9a1aKErqHd-14" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="493" y="244.5" as="sourcePoint" />
+            <mxPoint x="480" y="245" as="sourcePoint" />
             <mxPoint x="549.5" y="244.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-15" value="HotBiz&lt;br&gt;DB" style="shape=datastore;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="gwxmygeHfG9a1aKErqHd-15" value="HotBiz&lt;br style=&quot;font-size: 16px;&quot;&gt;DB" style="shape=datastore;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="560" y="193" width="60" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-16" value="热&lt;br&gt;门&lt;br&gt;店&lt;br&gt;主&lt;br&gt;体&lt;br&gt;同&lt;br&gt;步" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="567" y="263" width="50" height="110" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-16" value="热&lt;br style=&quot;font-size: 16px;&quot;&gt;门&lt;br style=&quot;font-size: 16px;&quot;&gt;店&lt;br style=&quot;font-size: 16px;&quot;&gt;同&lt;br style=&quot;font-size: 16px;&quot;&gt;步" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="555" y="259" width="68" height="141" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-21" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="330" y="350" width="92" height="110" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-21" value="" style="group;fontSize=16;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="329" y="373" width="92" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-18" value="......" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" parent="gwxmygeHfG9a1aKErqHd-21" vertex="1">
-          <mxGeometry width="92" height="110" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-18" value="......" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="gwxmygeHfG9a1aKErqHd-21" vertex="1">
+          <mxGeometry x="-20" width="112" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-19" value="商家平台" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" parent="gwxmygeHfG9a1aKErqHd-21" vertex="1">
-          <mxGeometry x="15.622641509433963" y="15.583333333333332" width="60.75471698113208" height="27.5" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-19" value="商家平台" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="gwxmygeHfG9a1aKErqHd-21" vertex="1">
+          <mxGeometry x="-1" y="15.58" width="76.38" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-20" value="社区团购" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" parent="gwxmygeHfG9a1aKErqHd-21" vertex="1">
-          <mxGeometry x="15.622641509433963" y="70.58333333333333" width="60.75471698113208" height="27.5" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-20" value="社区团购" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="gwxmygeHfG9a1aKErqHd-21" vertex="1">
+          <mxGeometry x="-1" y="70.58" width="76.38" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-22" value="热门店校验" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="428" y="390" width="130" height="43.5" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-22" value="热门店校验" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="421" y="400" width="140" height="66.5" as="geometry" />
         </mxCell>
-        <mxCell id="gwxmygeHfG9a1aKErqHd-24" value="每日凌晨进行更新" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="290" width="110" height="30" as="geometry" />
+        <mxCell id="gwxmygeHfG9a1aKErqHd-24" value="每日凌晨进行更新" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="464" y="294" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
